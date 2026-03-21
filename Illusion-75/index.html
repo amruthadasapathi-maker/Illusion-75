@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center><h2>Illusion - 75</h2></center>
+    <button onclick="reload()">refresh page</button>
+    <div data-style="display: flex; flex-direction: column;"class="hello">
+    <br>
+    <div data-style="display: flex; flex-direction: row;">
+        <div class="first">hello</div>
+        <div class="second">world</div>
+        <div class="third">rahul</div>
+    </div>
+        </div>
+<br>
+<div class="test">Viewport units work!!</div>
+    <p id="resultsData" class="resultsData"></p>
+<br>
+<div class="container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+</div>
+    <script src="logic.js"></script>
+    <script src="js/polyfill.js"></script>
+    <script src="js/flexibility.js"></script>
+    <script src="js/tokenizer.js"></script>
+    <script src="js/parser.js"></script>
+    <script src="js/vminpoly.js"></script>
+    <script src="js/grid.js"></script>
+    <script>
+        flexibility(document.documentElement);
+        
+        function search() {
+            console.log("Search function called");
+        }
+    </script>
+</body>
+</html>
