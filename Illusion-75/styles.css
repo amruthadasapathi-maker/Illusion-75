@@ -48,3 +48,8 @@
     text-align: center;
     height: 12vh;
 }
+.content-sidebar {
+        width: 300px;
+        border: 1px solid #ccc; /* Added so you can see the limit */
+        padding: 10px;
+    }
