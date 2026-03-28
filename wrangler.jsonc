@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "illusion-75",
+  "compatibility_date": "2025-09-27",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "Illusion-75"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
